@@ -1,0 +1,1 @@
+elementBefore :: Eq a => a -> [a] -> Maybe a
