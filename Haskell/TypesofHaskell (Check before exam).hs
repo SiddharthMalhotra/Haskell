@@ -6,7 +6,7 @@
 
 :t foldr												foldr :: Foldable t => (a -> b -> b) -> b -> t a -> b
 
-:t filter (not.(==3)) [1,2,3]							      :: (Num a, Eq a) => [a]
+:t filter (not.(==3)) [1,2,3]							filter (not.(==3)) [1,2,3]:: (Num a, Eq a) => [a]
 
 :t "abc" ++ "def" 										"abc" ++ "def" :: [Char]
 
