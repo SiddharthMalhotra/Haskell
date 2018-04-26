@@ -4,4 +4,4 @@ zWith f [] [] = error "Nothing"
 zWith f _ [] = []
 zWith f [] _ = []
 
-zWith f (a:as) (b:bs) = f a b:zWith f (as) (bs)
+zWith f (a:as) (b:bs) = f ab:zWith f (as) (bs)
