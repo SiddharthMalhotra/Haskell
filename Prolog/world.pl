@@ -18,5 +18,11 @@ river_country(River, Country) :-
 	member(Country, Countries),
 	country(Country).
 
+river_country(River, Country1),
+	river_country(River, Country2),
+    country_region(Country1, Region1),
+    country_region(Country2, Region2),
+    Region1 \= Region2.
+
 country_region(Country, Region) :-
 	country(Country,Region,_,_,_,_,_,_).

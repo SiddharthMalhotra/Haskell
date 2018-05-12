@@ -13,10 +13,6 @@ before(E1,E2, List):-
 E1 =2
 E2 =3 
 
-append ([E1|_List2], List2, List).
-	member (E1, List1).
-
-
 before(E1,E2,[E1|List]):-
 	member(E2,List).
 before(E1, E2, [_E3|Tails]):-
