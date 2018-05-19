@@ -1,0 +1,7 @@
+pairs(N, R) :-
+    succ(N0, N),
+    bagof(P, pair(N0, P), R).
+
+pair(N0, X-Y) :-
+    between(0, N0, X),
+    between(0, N0, Y).
