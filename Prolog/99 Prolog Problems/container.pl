@@ -1,3 +1,4 @@
+
 containers(Steps) :-
         containers(3, 5, 0, 0, _, 4, [0-0], Steps).
 
